@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Fira Sans", sans-serif;
+    background-color: #f1f6ff;
+    margin: auto;
+   
+  }
+  h1{
+    background-color: white;
+    border-radius: 20px;
+ padding: 15px 20px;
+    margin-top: 50px;
+    transition: 0.3s;
+    border: 2px solid ;
+
+  }
+  .div1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    align-items: center;
+    margin: auto;
+  }
+  h1:hover{
+    transform: scale(1.04);
+  }
+  .div2{
+    width: 95%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-direction: column;
+    border: 4px solid #1cb79a;;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin-top: 15px;
+  }
+  .p1{
+    font-size: 25px;
+    margin-top: 35px;
+  } 
+  .p2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 25px;
+  }
+  li{
+    font-size: 20px;
+  }
+  ul{margin-left: 40px;
+margin-top: 20px;
+}
+.p3{
+   border: 2px solid;
+   padding: 15px 20px;
+   border-radius: 15px;
+   font-size: 22px;
+   margin-bottom: 20px; 
+   margin-top: 5px;
+text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 20px;
+ padding: 15px 20px;   
+ border: 2px solid; 
+}
+span{
+    display: flex;
+    justify-content: center;
+flex-direction: column;
+width: 95%;
+margin-top: 15px;
+}
+.video{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+@media (max-width: 1100px) {
+    .l-t-l-div {
+      width: 80%;
+    }
+    .video {
+      width: 90%;
+      height: 450px;
+    }
+  }
+  @media (max-width: 530px) {
+    .l-t-l-div {
+      width: 98%;
+    }
+    .l-t-l-div p {
+      font-size: 13px;
+    }
+    .video {
+      width: 100%;
+      height: 240px;
+    }
+  }
+  *::first-letter{
+    text-transform: uppercase;
+  }
+  span{
+    border: 4px solid #1cb79a;;
+    border-radius: 15px;
+    padding: 5px 10px;
+  }
+.divv{
+    display: flex;
+    margin-bottom: 50px;
+}
+img{
+    width: 48%;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+.p4{
+    font-size: 23px;
+}
+@media (max-width:1038px) {
+    .divv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        margin: auto;
+    }
+    .divv p{
+        margin-top: 20px;
+    }
+}
+@media (max-width:947px) {
+    img{
+        width: 80%;
+    }
+}
